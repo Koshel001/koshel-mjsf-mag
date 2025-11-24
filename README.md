@@ -1,5 +1,38 @@
-# Vue 3 + Vite
+# Vue.js Lab 1
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Цей проєкт створено для ознайомлення з основами роботи з **Vue.js**.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Запуск проєкту локально
+
+### Передумови
+Для запуску проєкту необхідно встановити:
+- [Node.js](https://nodejs.org/) (включає npm)
+- [Docker](https://www.docker.com/)
+
+### Кроки запуску без Docker
+1. Клонуйте репозиторій:
+   ```bash
+   git clone https://github.com/Koshel001/koshel-mjsf-mag.git
+   cd lab1/koshel
+2. Встановіть залежності:
+    ```bash
+   npm install
+3. Запустіть у режимі розробки:
+    ```bash
+    npm run dev
+4. Відкрийте http://localhost:5173 у браузері.
+
+## Запуск проєкту в Docker
+
+### Команди
+* Запустити контейнер:
+    ```bash
+    npm run docker-run
+    
+Після цього застосунок буде доступний за адресою:
+
+👉 http://localhost:8080
+
+* Зупинити контейнер:
+    ```bash
+    npm run docker-stop
